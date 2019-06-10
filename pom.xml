@@ -20,6 +20,7 @@
 			<version>${org.springframework-version}</version>
 			
 			<!-- JCL 제외 -->
+			<!-- logback lib 브릿지를 이용할껀데 충돌나지 않게 제외 시켜줌 -->
 			<exclusions>
 			   <exclusion>
 				  <groupId>commons-logging</groupId>

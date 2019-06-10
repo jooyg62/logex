@@ -11,6 +11,7 @@ public class ExampleController {
 	
 	/**
 	 *  Logger 생성
+	 *  : 자신의 패키지 정보를 알기 위해 클래스 지정
 	 */
 	private static final Log LOG = LogFactory.getLog( ExampleController.class );
 	
